@@ -20,8 +20,8 @@ How do use ?
 ------------
 
 ```java
-// extend PeriscopeLayout and Constructor;
-//Override initDrawable
+//extend PeriscopeLayout and Constructor;
+//Override initDrawable;
  @Override
     public ArrayList<Integer> initDrawable() {
         ArrayList<Integer> list = new ArrayList<>();
@@ -34,7 +34,15 @@ How do use ?
 
 ```xml
 <com.example.administrator.animation.like.TestPeriscopeLayout
-        android:id="@+id/periscope"
-        android:layout_width="100dp"
-        android:layout_height="300dp" />
+     android:id="@+id/periscope"
+     android:layout_width="100dp"
+     android:layout_height="300dp" 
+     />
+```
+
+```java
+//initView;
+TestPeriscopeLayout periscopeLayout = (TestPeriscopeLayout) findViewById(R.id.periscope);
+//then send like
+periscopeLayout.addHeart();
 ```
