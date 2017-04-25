@@ -1,4 +1,5 @@
 # AnimationLib
-Live Animation
-[![](https://jitpack.io/v/Leall/AnimationLib.svg)](https://jitpack.io/#Leall/AnimationLib)
-
+ - - -
+ Live Animation<br />
+ 1.点赞
+ - - -
