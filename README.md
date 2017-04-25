@@ -12,7 +12,7 @@ Download
         maven { url "https://jitpack.io" }
    }
    dependencies {
-        compile 'com.github.jitpack:gradle-simple:1.0'
+        compile 'com.github.Leall:AnimationLib:1.0.0'
    }
 ```
 
