@@ -10,3 +10,4 @@
 >   dependencies {
 >        compile 'com.github.Leall:AnimationLib:1.0.0'
 >  }
+<p>Use the <code>printf()</code> function.</p>
